@@ -5,6 +5,7 @@ export const Counters = () => {
   const [count2, setCount2] = useState(0);
   const [sum, setSum] = useState(0);
 
+  //counters
   const handleCount1Change = () => {
     let changedCount1 = count1 + 1;
     setCount1(changedCount1);
